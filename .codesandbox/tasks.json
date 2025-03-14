@@ -1,0 +1,198 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "pnpm install",
+      "name": "Installing Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "pnpm dev",
+      "runAtStart": true
+    },
+    "dev:app": {
+      "name": "dev:app",
+      "command": "pnpm dev:app",
+      "runAtStart": false
+    },
+    "dev:app-android": {
+      "name": "dev:app-android",
+      "command": "pnpm dev:app-android",
+      "runAtStart": false
+    },
+    "dev:app-ios": {
+      "name": "dev:app-ios",
+      "command": "pnpm dev:app-ios",
+      "runAtStart": false
+    },
+    "dev:custom": {
+      "name": "dev:custom",
+      "command": "pnpm dev:custom",
+      "runAtStart": false
+    },
+    "dev:h5": {
+      "name": "dev:h5",
+      "command": "pnpm dev:h5",
+      "runAtStart": false
+    },
+    "dev:h5:ssr": {
+      "name": "dev:h5:ssr",
+      "command": "pnpm dev:h5:ssr",
+      "runAtStart": false
+    },
+    "dev:mp-alipay": {
+      "name": "dev:mp-alipay",
+      "command": "pnpm dev:mp-alipay",
+      "runAtStart": false
+    },
+    "dev:mp-baidu": {
+      "name": "dev:mp-baidu",
+      "command": "pnpm dev:mp-baidu",
+      "runAtStart": false
+    },
+    "dev:mp-jd": {
+      "name": "dev:mp-jd",
+      "command": "pnpm dev:mp-jd",
+      "runAtStart": false
+    },
+    "dev:mp-kuaishou": {
+      "name": "dev:mp-kuaishou",
+      "command": "pnpm dev:mp-kuaishou",
+      "runAtStart": false
+    },
+    "dev:mp-lark": {
+      "name": "dev:mp-lark",
+      "command": "pnpm dev:mp-lark",
+      "runAtStart": false
+    },
+    "dev:mp-qq": {
+      "name": "dev:mp-qq",
+      "command": "pnpm dev:mp-qq",
+      "runAtStart": false
+    },
+    "dev:mp-toutiao": {
+      "name": "dev:mp-toutiao",
+      "command": "pnpm dev:mp-toutiao",
+      "runAtStart": false
+    },
+    "dev:mp-weixin": {
+      "name": "dev:mp-weixin",
+      "command": "pnpm dev:mp-weixin",
+      "runAtStart": false
+    },
+    "dev:quickapp-webview": {
+      "name": "dev:quickapp-webview",
+      "command": "pnpm dev:quickapp-webview",
+      "runAtStart": false
+    },
+    "dev:quickapp-webview-huawei": {
+      "name": "dev:quickapp-webview-huawei",
+      "command": "pnpm dev:quickapp-webview-huawei",
+      "runAtStart": false
+    },
+    "dev:quickapp-webview-union": {
+      "name": "dev:quickapp-webview-union",
+      "command": "pnpm dev:quickapp-webview-union",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": false
+    },
+    "build:app": {
+      "name": "build:app",
+      "command": "pnpm build:app",
+      "runAtStart": false
+    },
+    "build:app-android": {
+      "name": "build:app-android",
+      "command": "pnpm build:app-android",
+      "runAtStart": false
+    },
+    "build:app-ios": {
+      "name": "build:app-ios",
+      "command": "pnpm build:app-ios",
+      "runAtStart": false
+    },
+    "build:custom": {
+      "name": "build:custom",
+      "command": "pnpm build:custom",
+      "runAtStart": false
+    },
+    "build:h5": {
+      "name": "build:h5",
+      "command": "pnpm build:h5",
+      "runAtStart": false
+    },
+    "build:h5:ssr": {
+      "name": "build:h5:ssr",
+      "command": "pnpm build:h5:ssr",
+      "runAtStart": false
+    },
+    "build:mp-alipay": {
+      "name": "build:mp-alipay",
+      "command": "pnpm build:mp-alipay",
+      "runAtStart": false
+    },
+    "build:mp-baidu": {
+      "name": "build:mp-baidu",
+      "command": "pnpm build:mp-baidu",
+      "runAtStart": false
+    },
+    "build:mp-jd": {
+      "name": "build:mp-jd",
+      "command": "pnpm build:mp-jd",
+      "runAtStart": false
+    },
+    "build:mp-kuaishou": {
+      "name": "build:mp-kuaishou",
+      "command": "pnpm build:mp-kuaishou",
+      "runAtStart": false
+    },
+    "build:mp-lark": {
+      "name": "build:mp-lark",
+      "command": "pnpm build:mp-lark",
+      "runAtStart": false
+    },
+    "build:mp-qq": {
+      "name": "build:mp-qq",
+      "command": "pnpm build:mp-qq",
+      "runAtStart": false
+    },
+    "build:mp-toutiao": {
+      "name": "build:mp-toutiao",
+      "command": "pnpm build:mp-toutiao",
+      "runAtStart": false
+    },
+    "build:mp-weixin": {
+      "name": "build:mp-weixin",
+      "command": "pnpm build:mp-weixin",
+      "runAtStart": false
+    },
+    "build:quickapp-webview": {
+      "name": "build:quickapp-webview",
+      "command": "pnpm build:quickapp-webview",
+      "runAtStart": false
+    },
+    "build:quickapp-webview-huawei": {
+      "name": "build:quickapp-webview-huawei",
+      "command": "pnpm build:quickapp-webview-huawei",
+      "runAtStart": false
+    },
+    "build:quickapp-webview-union": {
+      "name": "build:quickapp-webview-union",
+      "command": "pnpm build:quickapp-webview-union",
+      "runAtStart": false
+    },
+    "type-check": {
+      "name": "type-check",
+      "command": "pnpm type-check",
+      "runAtStart": false
+    }
+  }
+}
