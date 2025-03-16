@@ -6,7 +6,7 @@ const style = {
     backgroundImage: `url(${bg})`,
 };
 
-const urlBase = 'http://localhost:5166/#/pages/demo/';
+const urlBase = '#/pages/demo/';
 const defaultPageUrl = `${urlBase}button/button`;
 const pageUrl = ref();
 if (examplePage) {
