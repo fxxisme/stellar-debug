@@ -8,6 +8,10 @@
             "path": "pages/demo/button/button",
             "type": "button"
         },
+        {
+            "path": "pages/demo/input/input",
+            "type": "input"
+        },
     ],
     "globalStyle": {
         "backgroundColor": "@bgColor",

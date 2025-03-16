@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preview": "node scripts/preview-page.js",
     "dev": "uni",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
